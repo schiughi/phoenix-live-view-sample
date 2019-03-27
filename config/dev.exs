@@ -7,7 +7,7 @@ use Mix.Config
 # watchers to your application. For example, we use it
 # with brunch.io to recompile .js and .css sources.
 config :my_app, MyAppWeb.Endpoint,
-  http: [port: 4000],
+  http: [port: 4001],
   debug_errors: true,
   code_reloader: true,
   check_origin: false,
@@ -54,5 +54,5 @@ config :my_app, MyApp.Repo,
   username: "postgres",
   password: "postgres",
   database: "my_app_dev",
-  hostname: "localhost",
+  hostname: "db",
   pool_size: 10
